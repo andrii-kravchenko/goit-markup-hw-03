@@ -23,7 +23,8 @@ html {
     --hover-focus-color: #2196F3;
     --footer-logo-color: #ffffff;
     --footer-address-color: rgba(255, 255, 255, 0.6);
-    --team-item: white; 
+    --team-item: white;
+    --border-portfolio-color: #EEEEEE; 
 }
 
 p,
@@ -241,6 +242,10 @@ body {
     padding-bottom: 94px;
 }
 
+.hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
 .benefits-title {
 
@@ -341,6 +346,11 @@ background-color: #F5F4FA;
         
 }
 
+.team-and-portfolio-card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-text {
 
     color: var(--p-text-color);
@@ -361,12 +371,6 @@ background-color: #F5F4FA;
 .team-item:last-child {
 margin-right: 0;
 
-}
-
-.team-link,
-.team-text {
-    margin-bottom: 30px;
-    
 }
 
 .footer {
@@ -411,9 +415,8 @@ margin-right: 0;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
-
 }
+
 
 .portfolio-btn-list {
     display: flex;
@@ -503,12 +506,15 @@ margin-right: 0;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    
-}
+    border-right: 1px solid var(--border-portfolio-color);
+    border-bottom: 1px solid var(--border-portfolio-color);
+    border-left: 1px solid var(--border-portfolio-color);
+
+    }
 
 .btn {
     display: block;
-    padding: 32px 0 32px 0;
+    padding: 24px 0 24px 0;
 }
 
 .btn-padding-0 {
